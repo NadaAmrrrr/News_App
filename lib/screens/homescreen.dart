@@ -218,7 +218,7 @@ class NewsCard extends StatelessWidget {
             height: isFirst ? 250 : 150,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: NetworkImage(imageUrl),
+                image: AssetImage(imageUrl), // Use AssetImage instead of NetworkImage
                 fit: BoxFit.cover,
               ),
             ),

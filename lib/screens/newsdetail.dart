@@ -10,7 +10,7 @@ class NewsDetailScreen extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: NetworkImage('assets/first.png'),
+                image: AssetImage('assets/first.png'),
                 fit: BoxFit.cover,
               ),
             ),
